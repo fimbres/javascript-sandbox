@@ -14,19 +14,17 @@ body {
 }
 
 .container {
-    width: 60%;
     background-color: white;
-    height: 250px;
     border-radius: 20px;
     box-shadow: 0 0 3px;
+    padding: 35px;
 }
 
 #timer {
     width: 100%;
     font-size: 72px;
     text-align: center;
-    margin: 0px auto;
-    padding: 35px;
+    margin: 10px auto;
 }
 
 .buttons {
@@ -35,6 +33,7 @@ body {
 
 button {
     margin: 0 10px;
+    cursor: pointer;
     border: none;
 
     & i {
