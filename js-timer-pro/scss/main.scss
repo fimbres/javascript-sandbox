@@ -4,3 +4,57 @@
     box-sizing: border-box;
     font-family: 'roboto';
 }
+
+body {
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    background-color: white;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+
+    & i {
+        font-size: 2rem;
+        padding: 10px;
+        color: white;
+    }
+}
+
+#play {
+    background-color: rgb(55, 72, 228);
+    border-radius: 10px;
+}
+
+#pause {
+    background-color: rgb(228, 208, 55);
+    border-radius: 10px;
+}
+
+#reset {
+    background-color: rgb(228, 55, 55);
+    border-radius: 10px;
+}
