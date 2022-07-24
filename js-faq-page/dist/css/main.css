@@ -44,4 +44,7 @@ body {
   height: 0px;
   overflow: hidden;
   transition: 0.5s;
+}
+.accordeon .content-container.active .answer {
+  height: 130px;
 }/*# sourceMappingURL=main.css.map */

@@ -50,4 +50,8 @@ body {
 
         transition: .5s;
     }
+
+    .content-container.active .answer {
+        height: 130px;
+    }
 }
